@@ -1,0 +1,34 @@
+/* ESLint's JSON files also allow JavaScript-style comments.
+ * <https://github.com/eslint/eslint/blob/master/docs/user-guide/configuring.md#configuration-file-formats>
+ */
+ {
+    "extends": [
+      "prettier-standard/lib/base",
+      "prettier"
+    ],
+    "env": {
+      "es6": true,
+      "node": true
+    },
+    "rules": {
+    }
+    ,
+    "overrides":[
+      {
+        "files":[
+          "**/*.spec.js"
+        ],
+        // "excludedFiles": [],
+        "env":{
+          "mocha": true
+        },
+        "globals":{
+          // "assert": true, // `chai.assert` is added to the global scope by the Karma plugin.
+          // "chai": true,
+          // "expect": true, // `chai.expect` is added to the global scope by the Karma plugin.
+          // "should": true, // `chai.should` is added to the global scope by the Karma plugin.
+          // "sinon": true
+        }
+      }
+    ]
+  }
