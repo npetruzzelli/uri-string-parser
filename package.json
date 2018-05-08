@@ -1,0 +1,54 @@
+{
+  "name": "uri-string-parser",
+  "version": "1.0.0",
+  "description": "A non-destructive parser for URI and URL strings.",
+  "main": "lib/index.js",
+  "directories": {
+    "doc": "docs",
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:npetruzzelli/uri-string-parser.git"
+  },
+  "author": "Nick Petruzzelli <code.npetruzzelli@gmail.com>",
+  "license": "BSD-3-Clause",
+  "scripts": {
+    "test": "cross-env NODE_ENV=test nyc --nycrc-path test/.nycrc mocha"
+  },
+  "keywords": [
+    "parse url",
+    "url parser",
+    "url",
+    "parse uri",
+    "uri parser",
+    "uri",
+    "url class",
+    "parse",
+    "parser",
+    "string",
+    "class",
+    "uniform resource identifier",
+    "uniform resource locator",
+    "uniform resource string parser"
+  ],
+  "dependencies": {
+    "lodash.isplainobject": "^4.0.6"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "cross-env": "^5.1.4",
+    "eslint": "^4.19.1",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-config-prettier-standard": "^2.0.0",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.11.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-prettier": "^2.6.0",
+    "eslint-plugin-promise": "^3.7.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "mocha": "^5.1.1",
+    "nyc": "^11.7.1",
+    "prettier": "^1.12.1"
+  }
+}
