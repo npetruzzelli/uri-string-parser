@@ -588,10 +588,8 @@ portion of the object.
 Accepts the same arguments as `uriStringParser`, but returns just the URL
 portion of the object.
 
-## LICENSE
-## CONTRIBUTING
-## ACKNOWLEDGEMENT
-
 ## RESOURCES
 
 -   [About this module]( docs/about.markdown )
+-   [CONTRIBUTING]( CONTRIBUTING.markdown )
+-   [LICENSE]( LICENSE )
