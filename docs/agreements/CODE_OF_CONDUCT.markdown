@@ -50,4 +50,4 @@ Disagreements, both social and technical, happen all the time and this project i
 
 ## Acknowledgements
 
-This the text of this code of conduct is based upon the [JS Foundation's Code of Conduct]( https://js.foundation/community/code-of-conduct ), which is in turn was based upon the original text in the [Django Project]( https://www.djangoproject.com/conduct/ ) and [Speak Up! project]( http://web.archive.org/web/20141109123859/http://speakup.io/coc.html ).
+This the text of this code of conduct is based upon the [JS Foundation's Code of Conduct]( https://js.foundation/community/code-of-conduct ), which in turn was based upon the original text in the [Django Project]( https://www.djangoproject.com/conduct/ ) and [Speak Up! project]( http://web.archive.org/web/20141109123859/http://speakup.io/coc.html ).
