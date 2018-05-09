@@ -2,7 +2,7 @@
 
 ## What is it?
 
-Urs is a module that parses a URI string into an object representing its
+**uri-string-parser** is a module that parses a URI string into an object representing its
 parts. It is non-destructive, meaning that non of the characters from the input
 are transformed in the output.
 
