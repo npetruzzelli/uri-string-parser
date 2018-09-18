@@ -14,7 +14,8 @@
   "author": "Nick Petruzzelli <code.npetruzzelli@gmail.com>",
   "license": "BSD-3-Clause",
   "scripts": {
-    "test": "cross-env NODE_ENV=test nyc --nycrc-path test/.nycrc mocha"
+    "coverage": "cross-env NODE_ENV=test nyc --nycrc-path test/.nycrc mocha",
+    "test": "cross-env NODE_ENV=test mocha"
   },
   "keywords": [
     "parse url",
